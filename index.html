@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="stl.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="Meer.jpg.jpeg" alt="Profile Picture" class="profile-img">
+                <h1>Gulshan Ahmad</h1>
+                <p>I am a web developer</p>
+            </div>
+            <nav class="navbar">
+                <a href="#about-me" onclick="showSection('about-me')">About Me</a>
+                <a href="#contact-me" onclick="showSection('contact-me')">Contact Me</a>
+                <a href="#my-skills" onclick="showSection('my-skills')">My Skills</a>
+                <a href="#hobbies" onclick="showSection('hobbies')">Hobbies</a>
+                <a href="#references" onclick="showSection('references')">References</a>
+            </nav>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about-me" class="hidden">
+            <h2>About Me</h2>
+            <p>I am a hardworking, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful, and polite, with a good sense of humor. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</p>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact-me" class="hidden">
+            <h2>Contact Me</h2>
+            <p>Phone: +923453061515</p>
+            <p>Email: gulshanahmad68@gmail.com</p>
+            <p>Address: Bhakkar, Punjab</p>
+        </section>
+
+        <!-- My Skills Section -->
+        <section id="my-skills" class="hidden">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Database</li>
+                <li>.Net</li>
+            </ul>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="hidden">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Coding</li>
+                <li>Travelling</li>
+            </ul>
+        </section>
+
+        <!-- References Section -->
+        <section id="references" class="hidden">
+            <h2>References</h2>
+            <ul>
+                <li>
+                    <b>Name:</b> <i>Mr. Malik Adnan Siyal</i><br>
+                    <b>Relationship:</b> Friend<br>
+                    <b>Contact:</b> +92345263666
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
